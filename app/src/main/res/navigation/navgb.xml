@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgb.xml"
+    app:startDestination="@id/fragmentStartIPL2">
+
+    <fragment
+        android:id="@+id/fragmentStartIPL2"
+        android:name="com.cricketos370.FragmentStartIPL"
+        android:label="fragment_start_i_p_l"
+        tools:layout="@layout/fragment_start_i_p_l" >
+        <action
+            android:id="@+id/action_fragmentStartIPL2_to_fragmentButtonIPL"
+            app:destination="@id/fragmentButtonIPL" />
+        <action
+            android:id="@+id/action_fragmentStartIPL2_to_fragmentWebIPL"
+            app:destination="@id/fragmentWebIPL" />
+        <action
+            android:id="@+id/action_fragmentStartIPL2_to_fragmentNoINIPL"
+            app:destination="@id/fragmentNoINIPL" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentButtonIPL"
+        android:name="com.cricketos370.FragmentButtonIPL"
+        android:label="fragment_button_i_p_l"
+        tools:layout="@layout/fragment_button_i_p_l" >
+        <action
+            android:id="@+id/action_fragmentButtonIPL_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.cricketos370.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/fragmentWebIPL"
+        android:name="com.cricketos370.FragmentWebIPL"
+        android:label="fragment_web_i_p_l"
+        tools:layout="@layout/fragment_web_i_p_l" />
+    <fragment
+        android:id="@+id/fragmentNoINIPL"
+        android:name="com.cricketos370.FragmentNoINIPL"
+        android:label="fragment_no_i_n_i_p_l"
+        tools:layout="@layout/fragment_no_i_n_i_p_l" />
+</navigation>

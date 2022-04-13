@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/artur/AndroidStudioProjects/IPL2022Cricket/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/artur/AndroidStudioProjects/IPL2022Cricket/app/src/main/res/layout/fragment_button_i_p_l.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/artur/AndroidStudioProjects/IPL2022Cricket/app/src/main/res/layout/fragment_no_i_n_i_p_l.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/artur/AndroidStudioProjects/IPL2022Cricket/app/src/main/res/layout/fragment_start_i_p_l.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/artur/AndroidStudioProjects/IPL2022Cricket/app/src/main/res/layout/fragment_web_i_p_l.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/artur/AndroidStudioProjects/IPL2022Cricket/app/src/main/res/layout/ipl.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/artur/AndroidStudioProjects/IPL2022Cricket/app/src/main/res/layout/lineups.xml" value="0.2" />
+        <entry key="..\:/Users/artur/AndroidStudioProjects/IPL2022Cricket/app/src/main/res/layout/matches_item.xml" value="0.264" />
+        <entry key="..\:/Users/artur/AndroidStudioProjects/IPL2022Cricket/app/src/main/res/layout/plaers_item.xml" value="0.31107954545454547" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
